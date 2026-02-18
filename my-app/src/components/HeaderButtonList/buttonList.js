@@ -1,0 +1,1 @@
+export const buttonList = ["About Me", "Projects", "Certificates", "Currently"]

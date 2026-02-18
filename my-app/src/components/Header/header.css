@@ -1,0 +1,8 @@
+.header-box{
+    height: 150px;
+    background-color: #12130F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}

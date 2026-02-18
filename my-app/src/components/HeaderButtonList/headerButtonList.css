@@ -1,0 +1,12 @@
+.button-list {
+    display: grid;
+    width: 50%;
+    height: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.button-list button{
+    flex: 1
+
+}
