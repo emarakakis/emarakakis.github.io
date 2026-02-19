@@ -1,0 +1,32 @@
+.certificate-item{
+    width: 60%;
+    background-color: green;
+    justify-content: center;
+}
+
+.certificate-item-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* image | content */
+  align-items: center;
+  gap: 20px;
+}
+
+.certificate-item-row img{
+    width: 150px;
+}
+
+.certificate-item-title{
+    text-align: center;
+}
+
+.certificate-item h1{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.certificate-item .cir-left{
+    margin: 0 auto;
+}
+.certificate-item .cir-right{
+    text-align: left;
+}

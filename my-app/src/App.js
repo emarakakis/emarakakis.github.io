@@ -10,7 +10,12 @@ function App() {
     <div className="App">
       <PageView.Provider value={{enabled, setEnabled}}> 
         <Header />
-        <Content />
+        <main>
+          <Content />
+        </main>
+        <footer className="Footer">
+          Footer Here
+        </footer>
       </PageView.Provider>
     </div>
   );

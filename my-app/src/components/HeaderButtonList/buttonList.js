@@ -1,1 +1,1 @@
-export const buttonList = ["About Me", "Projects", "Certificates", "Currently"]
+export const buttonList = ["About Me", "Projects", "Certificates", "Blog"]

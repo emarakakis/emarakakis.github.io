@@ -1,0 +1,16 @@
+.certificates-panel {
+  background-color: gray;
+  width: 60%;
+  margin: 0 auto;
+
+  height: 100vh;      /* Πιάνει όλο το ύψος */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.certificates-panel > * {
+  flex: 1;   /* Κάθε CertificateItem παίρνει ίσο χώρο */
+}
